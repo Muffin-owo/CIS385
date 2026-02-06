@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>tables.html</title>
+  <style>
+    table,td{border:solid 2px black}
+  </style>
+</head>
+<body>
+
+  Table 1
+  <table>
+    <tr>
+      <td>Here is a Table</td>
+    </tr>
+  </table>
+
+  Table 2
+  <table>
+    <tr>
+      <td>Row 1, Col 1</td>
+      <td>Row 1, Col 2</td>
+    </tr>
+    <tr>
+      <td>Row 2, Col 1</td>
+      <td>Row 2, Col 2</td>
+    </tr>
+  </table>
+
+  Table 3
+  <table>
+    <tr>
+      <td colspan="2">Row 1, Col 1</td>
+    </tr>
+    <tr>
+      <td>Row 2, Col 1</td>
+      <td>Row 2, Col 2</td>
+    </tr>
+  </table>
+
+    Table 4
+  <table>
+    <tr>
+      <td rowspan="2">Col 1</td>
+      <td>Row 1, Col 2</td>
+    </tr>
+    <tr>
+      <td>Row 2, Col 2</td>
+    </tr>
+  </table>
+
+ 
+
+  Table 5
+  <table id="table5">
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td colspan="2">Row 1, Col 1</td>
+          </tr>
+          <tr>
+            <td>Row 2, Col 1</td>
+            <td>Row 2, Col 2</td>
+          </tr>
+        </table>
+      </td>
+
+      <td>
+        <table>
+          <tr>
+            <td rowspan="2">Col 1</td>
+            <td>Row 1, Col 2</td>
+          </tr>
+          <tr>
+            <td>Row 2, Col 2</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
